@@ -86,7 +86,7 @@ clear.addEventListener('click', function () {
 
 //compare the two input field to produce result
 submit.addEventListener('click', function () {
-    if (generator.value.length > 0 || displayNumbers.value.length > 0) {
+    if (generator.value.length > 0 && displayNumbers.value.length > 0) {
         if (generator.value === displayNumbers.value) {
             match.style.display = "block";
             notMatch.style.display = "none";
