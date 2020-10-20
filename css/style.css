@@ -83,7 +83,7 @@ color: #E0B612;
 .submit-btn {
     border: none;
     margin-top: 20px;
-    padding: 10px 120px;
+    padding: 10px 10px;
     border-radius: 5px;
     background: #495BC3;
     color: #fff;
@@ -98,7 +98,7 @@ color: #E0B612;
     padding: 5px 20px;
 }
 .notify-section{
-    width: 35%;
+    width: 100%;
     margin: 0 auto;
 }
 .action-left {
